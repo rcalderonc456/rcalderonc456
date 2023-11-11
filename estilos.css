@@ -1,0 +1,120 @@
+body {
+    background-color: violet;
+    color: white; /* Cambia el color del texto dentro del borde */
+    margin: 0; /* Elimina el margen predeterminado del body */
+    padding: 0; /* Elimina el relleno predeterminado del body */
+}
+
+.content {
+    position: relative;
+    padding: 20px; /* Añade relleno al contenido dentro del borde */
+}
+
+.borde::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px; /* Altura del borde superior */
+    background-color: lightpink; /* Color del borde */
+    
+}
+
+h1 {
+    text-align: left; /* Centra el título dentro del borde */
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2); /* Fondo semi-transparente */
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 80%; /* Espacio entre las imágenes */
+}
+
+.images img {
+    max-width: 10%; /* Ajusta el tamaño de las imágenes al contenedor */
+    height: auto;
+}
+
+.parrafo {
+    /* Estilos para el contenido dentro del borde */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente */
+    font-family: Verdana, Geneva, 'Tahoma', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Ajusta el valor según el espacio que desees entre párrafos */
+    text-align: justify;
+    line-height: 1.5; 
+}
+
+.parrafo2{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente */
+    font-family: Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border-radius: 3%;
+    margin-bottom: 20px; /* Ajusta el valor según el espacio que desees entre párrafos */
+    text-align: justify;
+    line-height: 1.5; 
+}
+
+.parrafo3{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente */
+    font-family: Verdana, Geneva, 'Tahoma', sans-serif;
+    font-size: 20px;
+    border-radius: 3%;
+    text-align: justify;
+    line-height: 1.5; 
+}
+h3{
+    color: pink;
+    font-family: tahoma;
+    text-align: right;
+    font-size: 20px;
+}
+hr{
+    height: 30px; /* Ajusta el grosor deseado */
+    border: none;
+    border-top: 5px dashed gold; /* Línea punteada con un color diferente */
+
+}
+.botonk {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra verticalmente */
+    width: 100%; /* Ancho del 100% del contenedor principal */
+    padding: 10px 0; /* Espaciado en la parte superior e inferior */
+   
+}
+.boton1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(122, 222, 255); /* Fondo negro */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+.boton1 a {
+    text-decoration: none; /* Sin subrayado en el enlace dentro del botón */
+    color: green; /* Texto blanco para el enlace */
+    font-size: 20px;
+}
+
+.code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: ARIAL;
+    font-size: 15px;
+}
+h2{
+    color: brown;
+}
